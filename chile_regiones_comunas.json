@@ -1,66 +1,66 @@
 {
 	"regiones": [{
-		"region" : "I Región de Tarapacá",
-		"comunas":["Alto Hospicio,Iquique,Camiña,Colchane,Huara,Pica,Pozo Almonte"]
+		"region" : "Región de Tarapacá",
+		"comunas":["Alto Hospicio","Iquique","Camiña","Colchane","Huara","Pica","Pozo Almonte"]
 	}, 
 	{
-		"region" : "II Región de Antofagasta",
+		"region" : "Región de Antofagasta",
 		"comunas": ["Antofagasta","Mejillones","Sierra Gorda","Taltal","Calama","Ollagüe","San Pedro de Atacama","María Elena","Tocopilla"]
 	},
 	{
-		"region" : " III Región de Atacama",
+		"region" : "Región de Atacama",
 		"comunas":["Chañaral","Diego de Almagro","Caldera","Copiapó","Tierra Amarilla","Alto del Carmen","Freirina","Huasco","Vallenar"]
 	},
 	{
-		"region" : " IV Región de Coquimbo",
+		"region" : "Región de Coquimbo",
 		"comunas":["Canela","Illapel","Los Vilos","Salamanca","Andacollo","Coquimbo","La Higuera","La Serena","Paihuano","Vicuña","Combarbalá","Monte Patria","Ovalle","Punitaqui","Río Hurtado"]
 	},
 	{
-		"region" : " V Región de Valparaíso",
+		"region" : "Región de Valparaíso",
 		"comunas":["Isla de Pascua","Calle Larga","Los Andes","Rinconada de Los Andes","San Esteban","Limache","Olmué","Quilpué","Villa Alemana","Cabildo","La Ligua","Papudo","Petorca","Zapallar","Hijuelas","La Calera","La Cruz","Nogales","Quillota","Algarrobo","Cartagena","El Quisco","El Tabo","San Antonio","Santo Domingo","Catemu","Llaillay","Panquehue","Putaendo","San Felipe","Santa María","casa Blanca","Concón","Juan Fernández","Puchuncaví","Quintero","Valparaíso","Viña del Mar"]
 	},
 	{
-		"region" : "VI Región del Libertador General Bernardo O’Higgins",
+		"region" : "Región del Libertador General Bernardo O’Higgins",
 		"comunas":["Codegua","Coínco","Coltauco","Doñihue","Graneros","Las Cabras","Machalí","Malloa","Olivar","Peumo","Pichidegua","Quinta de Tilcoco","Rancagua","Requínoa","Rengo","San Francisco de Mostazal","San Vicente de Tagua Tagua","La Estrella","Litueche","Marchigüe","Navidad","Paredones","Pichilemu","Chépica","Chimbarongo","Lolol","Nancagua","Palmilla","Peralillo","Placilla","Pumanque","San Fernando","Santa Cruz"]
 	},
 	{
-		"region" : "VII Región del Maule",
+		"region" : "Región del Maule",
 		"comunas":["Cauquenes","Chanco","Pelluhue","Curicó","Hualañé","Licantén","Molina","Rauco","Romeral","Sagrada Familia","Teno","Vichuquén","Colbún","Linares","Longaví","Parral","Retiro","San Javier de Loncomilla","Villa Alegre","Yerbas Buenas","Constitución","Curepto","Empedrado","Maule","Pelarco","Pencahue","Río Claro","San Clemente","San Rafael","Talca"]
 	},
 	{
-		"region" : " VIII Región del Biobío",
+		"region" : "Región del Biobío",
 		"comunas":["Arauco","Cañete","Contulmo","Curanilahue","Lebu","Los Álamos","Tirúa","Alto Biobío","Antuco","Cabrero","Laja","Los Ángeles","Mulchén","Nacimiento","Negrete","Quilaco","Quilleco","San Rosendo","Santa Bárbara","Tucapel","Yumbel","Chiguayante","Concepción","Coronel","Florida","Hualpén","Hualqui","Lota","Penco","San Pedro de la Paz","Santa Juana","Talcahuano","Tomé"]
 	},
 	{
-		"region" : " IX Región de La Araucanía",
+		"region" : "Región de La Araucanía",
 		"comunas":["Carahue","Cholchol","Cunco","Curarrehue","Freire","Galvarino","Gorbea","Lautaro","Loncoche","Melipeuco","Nueva Imperial","Padre Las Casas","Perquenco","Pitrufquén","Pucón","Saavedra","Temuco","Teodoro Schmidt","Toltén","Vilcún","Villarrica","Angol","Collipulli","Curacautín","Ercilla","Lonquimay","Los Sauces","Lumaco","Purén","Renaico","Traiguén","Victoria"]
 	},
 	{
-		"region" : "X Región de Los Lagos",
+		"region" : "Región de Los Lagos",
 		"comunas":["Ancud","Castro","Chonchi","Curaco de Vélez","Dalcahue","Puqueldón","Queilén","Quellón","Quemchi","Quinchao","Calbuco","Cochamó","Fresia","Frutillar","Llanquihue","Los Muermos","Maullín","Puerto Montt","Puerto Varas","Osorno","Puerto Octay","Purranque","Puyehue","Río Negro","San Pablo","San Juan de la Costa","Chaitén","Futaleufú","Hualaihué","Palena"]
 	},
 	{
-		"region" : "XI Región Aysén del General Carlos Ibáñez del Campo",
+		"region" : "Región Aysén del General Carlos Ibáñez del Campo",
 		"comunas":["Aysén","Cisnes","Guaitecas","Cochrane","O'Higgins","Tortel","Coyhaique","Lago Verde","Chile Chico","Río Ibáñez"]
 	},
 	{
-		"region" : " XII Región de Magallanes y Antártica Chilena",
+		"region" : "Región de Magallanes y Antártica Chilena",
 		"comunas":["Antártica","Cabo de Hornos","Laguna Blanca","Punta Arenas","Río Verde","San Gregorio","Porvenir","Primavera","Timaukel","Natales","Torres del Paine"]
 	},
 	{
-		"region" : " Región Metropolitana de Santiago",
+		"region" : "Región Metropolitana de Santiago",
 		"comunas":["Colina","Lampa","Tiltil","Pirque","Puente Alto","San José de Maipo","Buin","Calera de Tango","Paine","San Bernardo","Alhué","Curacaví","María Pinto","Melipilla","San Pedro","Cerrillos","Cerro Navia","Conchalí","El Bosque","Estación Central","Huechuraba","Independencia","La Cisterna","La Granja","La Florida","La Pintana","La Reina","Las Condes","Lo Barnechea","Lo Espejo","Lo Prado","Macul","Maipú","Ñuñoa","Pedro Aguirre Cerda","Peñalolén","Providencia","Pudahuel","Quilicura","Quinta Normal","Recoleta","Renca","San Miguel","San Joaquín","San Ramón","Santiago","Vitacura","El Monte","Isla de Maipo","Padre Hurtado","Peñaflor","Talagante"]
 	},
 	{
-		"region" : " XIV Región de Los Ríos",
+		"region" : "Región de Los Ríos",
 		"comunas":["Futrono","La Unión","Lago Ranco","Río Bueno","Corral","Lanco","Los Lagos","Máfil","Mariquina","Paillaco","Panguipulli","Valdivia"]
 	},
 	{
-		"region" : " XV Región de Arica y Parinacota",
+		"region" : "Región de Arica y Parinacota",
 		"comunas":["Arica","Camarones","General Lagos","Putre"]
 	},
 	{
-	 	"region" : "XVI Región de Ñuble",
+	 	"region" : "Región de Ñuble",
 	 	"comunas":	["Bulnes","Chillán","Chillán Viejo","El Carmen","Pemuco","Pinto","Quillón","San Ignacio","Yungay","Cobquecura","Coelemu","Ninhue","Portezuelo","Quirihue","Ránquil","Treguaco","Coihueco","Ñiquén","San Carlos","San Fabián","San Nicolás"],
    }]
  } 
