@@ -1,0 +1,61 @@
+      var regionIdSelected = $("#region").val();
+      var comunasItems = '<option selected="selected" value="0">- seleccionar comuna -</option>';
+
+      var requestURL = 'regiones_comunas.json';
+      var request = new XMLHttpRequest();
+      request.open('GET', requestURL);
+      request.responseType = 'json';
+      request.send();
+      
+      request.onload = function() {
+        var jsonData = request.response;
+        var regionItems = '<option selected="selected" value="0">- Seleccionar region -</option>';
+       
+        for (key in jsonData) {
+          if(jsonData.hasOwnProperty(key)){
+            regionItems += "<option data-region='"+jsonData[key].region+
+            "' value='" + jsonData[key].region_id + "'>" +
+            jsonData[key].region + "</option>";
+          }
+        }
+     
+        
+        $("#region").html(regionItems);
+      }  
+      
+   $("#region").on('change', function(){
+     
+      var regionIdSelected = $("#region").val();
+      var comunasItems = '<option selected="selected" value="0">- seleccionar comuna -</option>';
+
+      var requestURL = 'regiones_comunas.json';
+      var request = new XMLHttpRequest();
+      request.open('GET', requestURL);
+      request.responseType = 'json';
+      request.send();
+      
+      request.onload = function() {
+        var jsonData = request.response;
+        var comunasItems = '<option selected="selected" value="0">- seleccionar comuna -</option>';
+
+        var count = Object.keys(jsonData).length;
+
+        for (key in jsonData) {
+          if(jsonData.hasOwnProperty(key)){
+            if(jsonData[key].region_id == regionIdSelected){
+
+              //recorrer json comunas
+              var comunasJson = jsonData[key].comunas;
+              for (comunakey in comunasJson) {
+                if(comunasJson.hasOwnProperty(comunakey)){
+                  comunasItems += "<option  data-comuna='"+ comunasJson[comunakey].comuna_nombre +"' value='" + comunasJson[comunakey].comuna_id + "'>" + comunasJson[comunakey].comuna_nombre + "</option>";
+                }
+              } //end of json comunas
+
+            }
+          }
+        }
+        $("#comuna").html(comunasItems);
+      }  
+
+    });
